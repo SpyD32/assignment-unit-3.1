@@ -3,13 +3,13 @@
 // Creating arrays
 // console.log('--- 1. Practice creating arrays ---');
 let shapesArray = ['circle', 'triangle' , 'square' , 'rectangle']
-// console.log('my shapes are: ' , shapesArray);
+console.log('my shapes are: ' , shapesArray);
 // console.log('my shapes are: ' , shapesArray);
 
 
 // Example: Creating an array of animals
 let animalArray = ['fish', 'cat', 'bird', 'dog'];
-// console.log('Animals are: ' , animalArray);
+console.log('Animals are: ' , animalArray);
 // console.log('Animals are: ' , animalArray);
 
 
@@ -18,33 +18,35 @@ let animalArray = ['fish', 'cat', 'bird', 'dog'];
 // 1. TODO: Make an array `favoriteFoods` with some favorite foods.
 //    Be sure to console.log your array of foods to the console with
 //    a message, similar to the example above.
- let favoriteFoodsArray = ['pizza' , 'burgers' , 'french fries' , 'waffles']
-//  console.log('My favorite foods are: ' , favoriteFoodsArray);
-//  console.log(favoriteFoods);
+ let favoriteFoods = ['pizza' , 'burgers' , 'french fries' , 'waffles']
+ //console.log('My favorite foods are: ' , favoriteFoodsArray);
+console.log(favoriteFoods);
  
 // console.log('My favorite foods are: ' , 'favoriteFoodsArray');
 
 
 
 // Array.length: A property that tells you how many items are in a given array.
-// console.log('--- 2. Length of an array ---');
+console.log('--- 2. Length of an array ---');
 
 let marvel = ['Spiderman' , 'Hulk' , 'Captain America' , 'Wolverine' , 'Black Panther' , 'Jean Gray' , 'Thor']
 
-// console.log(marvelArray.length);
+console.log(marvel.length);
 
 
 // Example: How many animals are in the array?
  // 👈 Using the .length property!
-// console.log(animalArray.length);
+
 
 // console.log('Number of animals:', numberOfAnimals);
+let numberOfAnimals = animal;
+console.log('Number of animals:' , numberOfAnimals.length);
 
 // 2. TODO: Create a variable `numberOfFoods` and use the .length property
 //    to assign it the number value of how many items are inside `favoriteFoods`.
 //    Don't forget to console.log `numberOfFoods` to make sure your code worked!
-// let numberOfFoods = favoriteFoods.length
-// console.log('numberOfFoods', numberOfFoods);
+ let numberOfFoods = favoriteFoods.length
+ console.log('numberOfFoods', numberOfFoods);
 
 
 
@@ -53,14 +55,14 @@ let marvel = ['Spiderman' , 'Hulk' , 'Captain America' , 'Wolverine' , 'Black Pa
 
 // Example: Log the first animal from the array using its array index
 let firstAnimal = animalArray[0];
-// console.log('First animal is', firstAnimal);
+console.log('First animal is', firstAnimal);
 
 // 3.a. TODO: Create a variable `secondAnimal` and assign it the value
 //      of the second item from the `animalArray`.
 //      Be sure to console.log this new variable to make sure your code
 //      worked as expected.
 let secondAnimal  = animalArray[1];
-// console.log('second animal', secondAnimal);
+console.log('second animal', secondAnimal);
 
 
 // 3.b. TODO: Create a variable `lastAnimal` and assign it the value of
@@ -69,7 +71,7 @@ let secondAnimal  = animalArray[1];
 //      sure that your code does what you want. (Never trust your code until
 //      you have proof that it works!)
 let lastAnimal = animalArray[3]
-// console.log('last animal', lastAnimal);
+console.log('last animal', lastAnimal);
 
 
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
@@ -83,7 +85,7 @@ let lastAnimal = animalArray[3]
 // Example: Add an animal to the end of an array using the Array.push method.
 let animalToPush = 'penguin';
 animalArray.push(animalToPush);
-// console.log('Added an animal to end',  animalArray);
+console.log('Added an animal to end',  animalArray);
 
 // console.log('Added an animal to end,', animalArray);
 
@@ -93,7 +95,7 @@ animalArray.push(animalToPush);
 //      array. (How can you be 100% certain this worked? 🤔)
 let dessertToPush = 'Apple Pie';
 favoriteFoodsArray.push(dessertToPush);
-// console.log('Added a dessert to end' , favoriteFoodsArray);
+console.log('Added a dessert to end' , favoriteFoodsArray);
 
 
 
@@ -115,7 +117,7 @@ favoriteFoodsArray.unshift(entreeToUnshift);
 
 // Example: Remove the last animal by using the Array.pop method.
 let removedAnimal = animalArray.pop();
-// console.log('Removed the last animal', removedAnimal);
+console.log('Removed the last animal', removedAnimal);
 // console.log('The animals are now', animalArray);
 
 // NOTE: Use the `colors` array for 4.c and 4.d.
